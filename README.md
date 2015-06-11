@@ -1,0 +1,3 @@
+# proyecto1
+este es un proyecto que realizo para conectarme a base de datos utilizando php y aceptando llamados ajax desde otros dominios
+.....
