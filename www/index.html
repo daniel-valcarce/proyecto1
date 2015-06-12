@@ -71,7 +71,7 @@
                 console.log(resp);
              for(var x=0; x<m; x=x+1){
                 var datos = resp[x];
-                    $("#contenido").append('<h1>'+datos["apellidos"]+'</h1><h1>'+datos["nombres"]+'</h1>');
+                    $("#contenido").append('<h1>'+datos["apellidos"]+'</h1><h1>'+datos["nombres"]+'</h1>'+datos["correo"]+'</h1>'+datos["dir_residencia"]+'</h1>'+datos["nun_telefono"]+'</h1>');
              }
             }
         }  
